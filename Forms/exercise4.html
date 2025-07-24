@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exercise #4: Subscription form</title>
+  <link rel="stylesheet" href="./exercise4.css">
+</head>
+
+<body>
+
+  <form class="clForm">
+
+    <fieldset style="background-color:antiquewhite;">
+
+      <legend>Personal details</legend>
+      <label for="First name :">First name :</label>
+      <input type="text"><br>
+      <label for="Last name :">Last name :</label>
+      <input type="text"><br>
+      <label for="Email" style="margin: 10px;">Email :</label>
+      <input type="email"><br>
+      <label for="Gender ">Gender :</label>
+      <input type="radio" name="Gender" value="male">Male
+      <input type="radio" name="Gender" value="fmale">Fmale
+
+    </fieldset>
+
+    <fieldset style="background-color:antiquewhite;">
+
+      <legend>Magazines</legend>
+      <input type="checkbox"> stavanger aftenblad <br>
+      <input type="checkbox"> Teknisk Ukebladbr <br>
+      <input type="checkbox"> Se og Hor <br>
+      <input type="checkbox"> Familien
+    </fieldset>
+
+    <fieldset style="background-color:antiquewhite;">
+
+      <legend>Subscription</legend>
+      <label for="period">Period:</label>
+      <select>
+        <option value="3">3 months</option>
+        <option value="6">6 months</option>
+        <option value="12">12 months</option>
+      </select>
+      <br><br>
+    </fieldset>
+    <button>Subscribe</button>
+  </form>
+
+</body>
+
+</html>
